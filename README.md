@@ -1,6 +1,6 @@
 # Eluwa: A Fine-Tuned LoRA for Facebook's OPT 2.7b Architecture
 
-![logo](https://www.example.com/images/kitten.jpg "baaaaaaaaaaaa")
+![logo](/ELUWA-LOGO.jpg "baaaaaaaaaaaa")
 
 Eluwa is a fine-tuned LoRA model based on Facebook's OPT 2.7b architecture and trained on the Stanford Alpaca dataset. Eluwa is designed to provide a more conversational and creative experience in question-answering mode compared to the default OPT model. The idea was that OPT was too curt (and frankly, a bit of an asshole) for a model of its size, and that we could finetune it like Alpaca did to Llama. 
 
