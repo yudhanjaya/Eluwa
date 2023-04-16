@@ -36,7 +36,7 @@ A: Colombo.
 
 Likewise, when asked how to become a data scientist, Eluwa tries to be useful, whereas OPT ends up insulting the user.
 
-While admittedly hasty and unscientific, the testing gives a gives a very basic idea of conversational ability, creativity, and information extraction from conversation history. According to GPT-4, Eluwa scores 42/90 (46.7%), compared to OPT-default's 23/90 (25.6%) and GPT 3.5's 72/90 (80%). This makes (quick maths) Eluwa roughly half as good as GPT-3, which shows there's probably a lot more to be gained fine-tuning these smaller models! 
+While admittedly hasty and unscientific, the testing gives a very basic idea of conversational ability, creativity, and information extraction from conversation history. According to GPT-4, Eluwa scores 42/90 (46.7%), compared to OPT-default's 23/90 (25.6%) and GPT 3.5's 72/90 (80%). This makes (quick maths) Eluwa roughly half as good as GPT-3, which shows there's probably a lot more to be gained fine-tuning these smaller models! 
 
 Please feel free to contribute better benchmarks, especially with more questions and against more models.
 
