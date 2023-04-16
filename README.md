@@ -47,7 +47,7 @@ Please feel free to contribute better benchmarks, especially with more questions
 
 I used [oobabooga's text generation UI](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing) for testing, because it lets me easily regenerate outputs, modify the conversation history passed to the model, and mess with parameters. 
 
-To load Eluwa, download [OPT 2.7b from Huggingface](https://huggingface.co/facebook/opt-2.7b) and download Eluwa. Follow the instructions on the text generation UI repository to figure out where the model goes and how to load a LoRA. Eluwa goes in the /loras folder. 
+To load Eluwa, download [OPT 2.7b from Huggingface](https://huggingface.co/facebook/opt-2.7b) and download both the .bin and .json file from the /model folder on this Github. Follow the instructions on the text generation UI repository to figure out where the model goes and how to load a LoRA. Eluwa goes in the /loras folder. 
 
 ## Training and notes
 
@@ -55,7 +55,7 @@ Training Eluwa is a straightforward process. It is essentially Facebook's GPT-li
 
 When loaded thusly, OPT 2.7b gives us 5242880 trainable params out of a total 2656839680 (trainable%: 0.19733520390662038).
 
-In training Eluwa, I made some interesting notes. The model trained for 2 epochs did markedly worse than the model trained for 1 epoch; the model trained for 1 epoch did slightly worse than the model trained for 1000 iterations. Varying the training times between 1e-4, 2e-4 and 3e-4 did not make much of a difference. Ultimately the 1000 iter model was better and is the default here.
+In training Eluwa, I made some interesting notes. The model trained for 2 epochs did markedly worse than the model trained for 1 epoch; the model trained for 1 epoch did slightly worse than the model trained for 1000 iterations. 500 iterations didn't do so well, eiither. Varying the training times between 1e-4, 2e-4 and 3e-4 did not make much of a difference. Ultimately the 1000 iter model was better and is the default here.
 
 There could be many reasons for this - the training data, parameters, etc. Please try it for yourself and see what you can come up with!    
 
