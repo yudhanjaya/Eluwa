@@ -45,13 +45,13 @@ Please feel free to contribute better benchmarks, especially with more questions
 
 ## Using Eluwa
 
-I used [oobabooga's text generation UI](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing) for testing, because it lets me easily regenerate outputs, modify the conversation history passed to the model, and mess with parameters. 
+I used [oobabooga's text generation UI](https://github.com/oobabooga/text-generation-webui) for testing, because it lets me easily regenerate outputs, modify the conversation history passed to the model, and mess with parameters. 
 
 To load Eluwa, download [OPT 2.7b from Huggingface](https://huggingface.co/facebook/opt-2.7b) and download both the .bin and .json file from the /model folder on this Github. Follow the instructions on the text generation UI repository to figure out where the model goes and how to load a LoRA. Eluwa goes in the /loras folder. 
 
 ## Training and notes
 
-Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tatsu-lab/stanford_alpaca). Use the [Colab notebook here](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing). I've written notes in there on what the functions do. 
+Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tatsu-lab/stanford_alpaca). Use the [Colab notebook here]((https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing)). I've written notes in there on what the functions do. 
 
 When loaded thusly, OPT 2.7b gives us 5242880 trainable params out of a total 2656839680 (trainable%: 0.19733520390662038).
 
