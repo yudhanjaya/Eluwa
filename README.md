@@ -51,7 +51,7 @@ To load Eluwa, download [OPT 2.7b from Huggingface](https://huggingface.co/faceb
 
 ## Training and notes
 
-Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tatsu-lab/stanford_alpaca). Use the [Colab notebook here]((https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing)). I've written notes in there on what the functions do. 
+Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset](https://github.com/tatsu-lab/stanford_alpaca). Use the [Colab notebook here](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing). I've written notes in there on what the functions do. 
 
 When loaded thusly, OPT 2.7b gives us 5242880 trainable params out of a total 2656839680 (trainable%: 0.19733520390662038).
 
