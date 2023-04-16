@@ -16,7 +16,7 @@ A: A paladin? What do you mean by "paladin"? Is it a hero from a fantasy novel? 
 ### Q: Describe this person.	
 Well, he wears armor made out of gold and has many magical powers. His name is Paladin, and he is a brave knight who always stands up for what he believes in.
 ```
-Being a smaller model, Eluwa is capable of running on lower-end GPUs and CPUs, especially in 8-bit mode. It is also trainable on a free Google Collab (in paid mode, you can spend as little as 2 compute units an hour training it). This makes it an ideal option for researchers looking to experiment with conversational AI without high-performance hardware.
+Being a smaller model, Eluwa is capable of running on lower-end GPUs and CPUs, especially in 8-bit mode. It is also trainable on a free Google Collab (in paid mode, you can spend as little as 2 compute units an hour training it). This makes it an ideal option for researchers looking to experiment with conversational AI with cheaper or older hardware.
 
 ***
 
@@ -64,3 +64,5 @@ There could be many reasons for this - the training data, parameters, etc. Pleas
 Well, the whole thing was inspiration from Alpaca, which is a LoRA based on Llama. Others adopted the trend (Cabrita, Vicuna etc). Now, in Sri Lanka, we don't have llamas (at least, I've never seen any), but we do have goats. Goats are spectacular animals. In Ragama I once beheld a goat fighting a pack of stray dogs (and winning). Then it came for me. I hit it on the head with my umbrella, whereupon which it ate the umbrella and chased me the length and breadth of the entire village. 
 
 If you can't beat em, join em. "Eluwa" means goat. Goats are fearsome, versatile, and double as the essential ingredient in mutton rolls. Everything in the known universe is either a goat, or not a goat. They're not as nice as llamas or alpacas, but they'll do.
+
+
