@@ -69,7 +69,7 @@ If you can't beat em, join em. "Eluwa" means goat. Goats are fearsome, versatile
 
 ## License
 
-Facebook's OPT has its own license. [Please read it here](https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md)
-Alpaca is licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. 
+Facebook's OPT has [its own license. Please read it here.](https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md)
+Alpaca is licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and they note that models trained using the dataset should not be used outside of research purposes. 
 
 Eluwa, therefore, is only for research and non-commercial use, under CC BY NC 4.0. Go experiment with it, but don't use it commercially. 
