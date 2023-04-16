@@ -1,4 +1,4 @@
-# Eluwa: A Fine-Tuned LoRA for Facebook's OPT 2.7b Architecture
+# Eluwa: A Conversational LoRA for Facebook's OPT 2.7b Architecture
 
 ![logo](/ELUWA-LOGO.jpg "baaaaaaaaaaaa")
 
