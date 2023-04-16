@@ -4,7 +4,7 @@
 
 Eluwa is a fine-tuned LoRA model based on Facebook's OPT 2.7b architecture and trained on the Stanford Alpaca dataset. Eluwa is designed to provide a more conversational and creative experience in question-answering mode compared to the default OPT model. The idea was that OPT was too curt (and frankly, a bit of an asshole) for a model of its size, and that we could finetune it like Alpaca did to Llama. 
 
-It worked! Based on very limited testing, it's about halfway to GPT 3.5.
+It worked! Based on very limited testing, it's about halfway to GPT 3.5. Response times are fast: on my GTX 1080ti + Ryzen 3600,it generates between 1.14 tokens/s and 3.77 tokens/s.
 
 ```
 ### Q: Tell me about yourself.
@@ -21,7 +21,7 @@ Being a smaller model, Eluwa is capable of running on lower-end GPUs and CPUs, e
 ***
 
 ## Benchmarks
-For benchmarks, I wrote a suite of questions - including a difficult information extraction task using my own writing from longform.watchdog.team. I then pitted OPT 2.7b (in 8 bit mode), OPT 2.7b with Eluwa, and GPT 3.5 against each other. Scores and judging were done by GPT-4. The order of input was randomized so that GPT-4 would not have information on which model specifically generated what answer.
+For benchmarks, I wrote a suite of questions - including a difficult information extraction task using my own writing from longform.watchdog.team. I then pitted OPT 2.7b (in 8 bit mode), OPT 2.7b (8bit) with Eluwa, and GPT 3.5 against each other. Scores and judging were done by GPT-4. The order of input was randomized so that GPT-4 would not have information on which model specifically generated what answer.
 
 Here's the [link to the evaluation spreadsheet](https://docs.google.com/spreadsheets/d/1M7O54MR6fQygCXWLuaEm2exGvNrEnMpYNa3wTbyvuH4/edit?usp=sharing).
 
@@ -43,13 +43,17 @@ Please feel free to contribute better benchmarks, especially with more questions
 
 ***
 
-## Training and notes
-
-Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tloen/alpaca-lora). Use the [Colab notebook here](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing). I've written notes in there on what the functions do.
+## Using Eluwa
 
 I used [oobabooga's text generation UI](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing) for testing, because it lets me easily regenerate outputs, modify the conversation history passed to the model, and mess with parameters. 
 
 To load Eluwa, download [OPT 2.7b from Huggingface](https://huggingface.co/facebook/opt-2.7b) and download Eluwa. Follow the instructions on the text generation UI repository to figure out where the model goes and how to load a LoRA. Eluwa goes in the /loras folder. 
+
+## Training and notes
+
+Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tloen/alpaca-lora). Use the [Colab notebook here](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing). I've written notes in there on what the functions do. 
+
+When loaded thusly, OPT 2.7b gives us 5242880 trainable params out of a total 2656839680 (trainable%: 0.19733520390662038).
 
 In training Eluwa, I made some interesting notes. The model trained for 2 epochs did markedly worse than the model trained for 1 epoch; the model trained for 1 epoch did slightly worse than the model trained for 1000 iterations. Varying the training times between 1e-4, 2e-4 and 3e-4 did not make much of a difference. 
 
