@@ -51,7 +51,7 @@ To load Eluwa, download [OPT 2.7b from Huggingface](https://huggingface.co/faceb
 
 ## Training and notes
 
-Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tloen/alpaca-lora). Use the [Colab notebook here](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing). I've written notes in there on what the functions do. 
+Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset] (https://github.com/tatsu-lab/stanford_alpaca). Use the [Colab notebook here](https://colab.research.google.com/drive/1rkLx0oI8pbix0EznjYeaLDqPoMHdw0x8?usp=sharing). I've written notes in there on what the functions do. 
 
 When loaded thusly, OPT 2.7b gives us 5242880 trainable params out of a total 2656839680 (trainable%: 0.19733520390662038).
 
@@ -65,4 +65,9 @@ Well, the whole thing was inspiration from Alpaca, which is a LoRA based on Llam
 
 If you can't beat em, join em. "Eluwa" means goat. Goats are fearsome, versatile, and double as the essential ingredient in mutton rolls. Everything in the known universe is either a goat, or not a goat. They're not as nice as llamas or alpacas, but they'll do.
 
+## License
 
+Facebook's OPT has its own license. [Please read it here](https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md)
+Alpaca is licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. 
+
+Eluwa, therefore, is only for research and non-commercial use.
