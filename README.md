@@ -59,4 +59,4 @@ There could be many reasons for this - the training data, parameters, etc. Pleas
 
 Well, the whole thing was inspiration from Alpaca, which is a LoRA based on Llama. Others adopted the trend (Cabrita, Vicuna etc). Now, in Sri Lanka, we don't have llamas (at least, I've never seen any), but we do have goats. Goats are spectacular animals. In Ragama I once beheld a goat fighting a pack of stray dogs (and winning). Then it came for me. I hit it on the head with my umbrella, whereupon which it ate the umbrella and chased me the length and breadth of the entire village. 
 
-If you can't beat em, join em. "Eluwa" means goat. Goats are fearsome, versatile, and double as the essential ingredient in mutton rolls. Everything in the known universe is either a goat, or not a goat. 
+If you can't beat em, join em. "Eluwa" means goat. Goats are fearsome, versatile, and double as the essential ingredient in mutton rolls. Everything in the known universe is either a goat, or not a goat. They're not as nice as llamas or alpacas, but they'll do.
