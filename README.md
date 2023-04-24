@@ -9,12 +9,12 @@ Eluwa comes in 1.3b, 2.7b and 6.7b flavors, each based on the corresponding OPT 
 
 ## Using Eluwa
 
-To load Eluwa, first get OPT: 
+To load Eluwa, first get OPT:   
 https://huggingface.co/facebook/opt-1.3b  
 https://huggingface.co/facebook/opt-2.7b  
 or https://huggingface.co/facebook/opt-6.7b.  
 
-Then load Eluwa from the Hugginface repo:
+Then load Eluwa from the Hugginface repo:  
 https://huggingface.co/BackyardLabs/Eluwa-1.3b  
 https://huggingface.co/BackyardLabs/Eluwa-2.7b  
 or https://huggingface.co/BackyardLabs/Eluwa-6.7b.  
