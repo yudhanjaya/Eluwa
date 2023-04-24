@@ -10,14 +10,14 @@ Eluwa comes in 1.3b, 2.7b and 6.7b flavors, each based on the corresponding OPT 
 ## Using Eluwa
 
 To load Eluwa, first get OPT: 
-https://huggingface.co/facebook/opt-1.3b \\
-https://huggingface.co/facebook/opt-2.7b \\
-or https://huggingface.co/facebook/opt-6.7b. \\
+https://huggingface.co/facebook/opt-1.3b \n
+https://huggingface.co/facebook/opt-2.7b \n
+or https://huggingface.co/facebook/opt-6.7b. \n
 
-Then load Eluwa from the Hugginface repo: \\
-https://huggingface.co/BackyardLabs/Eluwa-1.3b \\
-https://huggingface.co/BackyardLabs/Eluwa-2.7b \\
-or https://huggingface.co/BackyardLabs/Eluwa-6.7b. \\
+Then load Eluwa from the Hugginface repo: \n
+https://huggingface.co/BackyardLabs/Eluwa-1.3b \n
+https://huggingface.co/BackyardLabs/Eluwa-2.7b \n
+or https://huggingface.co/BackyardLabs/Eluwa-6.7b. \n
 
 You can easily load this with the Huggingface libraries; if you want a UI that can run locally, I recommend [oobabooga's text generation UI](https://github.com/oobabooga/text-generation-webui). It lets you easily regenerate outputs, modify the conversation history passed to the model, and mess with parameters.  Follow the instructions on the text generation UI repository to figure out where the model goes and how to load a LoRA. Eluwa goes in the /loras folder.  
 
