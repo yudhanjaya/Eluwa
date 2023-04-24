@@ -25,7 +25,7 @@ You can easily load this with the Huggingface libraries; if you want a UI that c
 
 Training Eluwa is a straightforward process. It is essentially Facebook's GPT-like OPT 2.7b model, loaded in 8-bit and trained using [Stanford's Alapaca dataset](https://github.com/tatsu-lab/stanford_alpaca). This repo contains the training notebook. I've written notes in there on what the functions do. 
 
-Eluwa was tested primarily in the style of Vicuna - using their 80 questions and using GPT-4 to rank the answers. These questions and answers are in this repo under /TestResults/.
+Eluwa was tested primarily in the style of Vicuna - using their 80 questions and using GPT-4 to rank the answers. These questions and answers are in this repo under /TestResults/. For other testing (Wikibench, SQUAD) see the Eluwabench notebook in this repo.
 
 For more details, we'll link the paper as soon as it appears on Arxiv.
 
