@@ -36,9 +36,35 @@ Well, the whole thing was inspiration from Alpaca, which is a LoRA based on Llam
 
 If you can't beat em, join em. "Eluwa" means goat. Goats are fearsome, versatile, and double as the essential ingredient in mutton rolls. Everything in the known universe is either a goat, or not a goat. They're not as nice as llamas or alpacas, but they'll do.
 
+
 ## License
 
 Facebook's OPT has [its own license. Please read it here.](https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md)
 Alpaca is licensed for research use only. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and they note that models trained using the dataset should not be used outside of research purposes. 
 
 Eluwa, therefore, is only for research and non-commercial use, under CC BY NC 4.0. Go experiment with it, but don't use it commercially. 
+
+
+## Citing
+To cite this work, please use:
+```
+@article{wijeratne2023better,
+      title={Better Question-Answering Models on a Budget}, 
+      author={Yudhanjaya Wijeratne and Ishan Marikar},
+      year={2023},
+      eprint={2304.12370},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+as well as the original OPT paper:
+```
+@article{zhang2022opt,
+  title={Opt: Open pre-trained transformer language models},
+  author={Zhang, Susan and Roller, Stephen and Goyal, Naman and Artetxe, Mikel and Chen, Moya and Chen, Shuohui and Dewan, Christopher and Diab, Mona and Li, Xian and Lin, Xi Victoria and others},
+  journal={arXiv preprint arXiv:2205.01068},
+  year={2022}
+}
+```
+
